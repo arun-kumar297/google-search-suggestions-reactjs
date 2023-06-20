@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.google-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-logo {
+  height: 70px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  box-shadow: 0px 4px 16px 0px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-left: 6px;
+}
+.input-container {
+  display: flex;
+  padding-left: 0px;
+}
+.input-element {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+.search-icon {
+  height: 17px;
+  width: 17px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .google-logo {
+    height: 120px;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .search-container {
+    width: 500px;
+  }
+  .input-element {
+    width: 100%;
+  }
+}
